@@ -14,9 +14,7 @@ public class SpringJenkinsApplication {
 	
 	@PostConstruct
 	public void init() {
-		logger.info("Application started..");
-		logger.info("changes to make build fail !!! ");
-		return 1;
+		logger.info("Application started..");		
 	}
 
 	public static void main(String[] args) {	
